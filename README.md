@@ -1,6 +1,6 @@
 # Phân tích mối quan hệ động giữa tỷ giá hối đoái USD/VND và chỉ số VN-Index trong giai đoạn thắt chặt tiền tệ (2022-2024)
 
-## Mô tả (Description)
+## Mô tả 
 Dự án phân tích mối quan hệ động giữa tỷ giá USD/VND và chỉ số VN-Index trong giai đoạn 2022–2024 bằng mô hình VAR với dữ liệu tần suất ngày nhằm đánh giá mối quan hệ nhân quả và tác động ngắn hạn giữa thị trường ngoại hối và thị trường chứng khoán tại Việt Nam.
 Nghiên cứu kết hợp các phương pháp kinh tế lượng cùng các lý thuyết định giá để trả lời cho câu hỏi liệu biến động của thị trường chứng khoán có khả năng dự báo tỷ giá hay không, cũng như mức độ tác động qua lại giữa hai thị trường trong bối cảnh biến động kinh tế và tài chính toàn cầu.
 
@@ -47,11 +47,10 @@ Phân tích chuyên sâu
 ```
  
 ---
----
 
 ## Cài đặt (Installation)
 ### Yêu cầu
-- **R** >= 4.0.0 hoặc RStudio
+- **R**  hoặc **RStudio**
 - Hệ điều hành: Windows / macOS / Linux
 
 ### Cài đặt thư viện
@@ -73,7 +72,8 @@ Rscript analysis.R
 ```
 Dynamic Relationship Between Exchange Rate and VN-Index During Monetary Tightening (2022–2024)/
 │
-├── analysis.py                  # Code phân tích và mô hình hóa
+├── requirements.R               # Danh sách packages cần cài đặt
+├── analysis.R                   # Code phân tích và mô hình hóa
 ├── data.xlxs                    # Dữ liệu đã xử lý
 ├── output/                      # Biểu đồ
 ├── research_paper.pdf           # Bài nghiên cứu đầy đủ
@@ -85,14 +85,14 @@ Dynamic Relationship Between Exchange Rate and VN-Index During Monetary Tighteni
 ## Báo cáo đầy đủ (Report)
 Bản báo cáo hoàn chỉnh có thể xem tại đây:
 
-📄 https://github.com/PhamThu-2409/Quantitative-Analysis-of-VN30-Stocks-and-Portfolio-Risk/blob/main/report.pdf
+📄 https://github.com/PhamThu-2409/Dynamic-Relationship-Between-Exchange-Rate-and-VN-Index-During-Monetary-Tightening/blob/main/research_paper.pdf
 
 ---
 
 ## Định hướng phát triển (Roadmap)
 - Cải thiện mô hình dự báo (VAR-GARCH, TVP-VAR, Structural VAR (SVAR), Markov Switching VAR)
 - Bổ sung thêm các biến kinh tế vĩ mô khác như lạm phát, lãi suất, giá vàng...
-- Mở rộng phạm vi thời gian 
+- Mở rộng phạm vi thời gian nghiên cứu 
 
 ---
 
