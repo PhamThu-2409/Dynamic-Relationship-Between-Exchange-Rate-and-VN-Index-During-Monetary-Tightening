@@ -1,6 +1,6 @@
 # Phân tích mối quan hệ động giữa tỷ giá hối đoái USD/VND và chỉ số VN-Index trong giai đoạn thắt chặt tiền tệ (2022-2024)
 
-## Mô tả 
+## Mô tả (Description)
 Dự án phân tích mối quan hệ động giữa tỷ giá USD/VND và chỉ số VN-Index trong giai đoạn 2022–2024 bằng mô hình VAR với dữ liệu tần suất ngày nhằm đánh giá mối quan hệ nhân quả và tác động ngắn hạn giữa thị trường ngoại hối và thị trường chứng khoán tại Việt Nam.
 Nghiên cứu kết hợp các phương pháp kinh tế lượng cùng các lý thuyết định giá để trả lời cho câu hỏi liệu biến động của thị trường chứng khoán có khả năng dự báo tỷ giá hay không, cũng như mức độ tác động qua lại giữa hai thị trường trong bối cảnh biến động kinh tế và tài chính toàn cầu.
 
@@ -12,7 +12,7 @@ Nghiên cứu kết hợp các phương pháp kinh tế lượng cùng các lý 
 
 ---
 
-## Dữ liệu
+## Dữ liệu (Data)
  
 | Biến | Mô tả | Nguồn | Tần suất |
 |------|--------|-------|----------|
@@ -25,7 +25,7 @@ Nghiên cứu kết hợp các phương pháp kinh tế lượng cùng các lý 
 
 ---
  
-## Phương pháp
+## Phương pháp (Methods)
  
 ```
 Kiểm định ADF (tính dừng)
